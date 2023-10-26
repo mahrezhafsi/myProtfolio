@@ -23,7 +23,7 @@ export class ProjectCardComponent {
         project:this.project
       }
     };
-    this.bsModalRef = this.modalService.show(ProjectModalComponent);
+    this.bsModalRef = this.modalService.show(ProjectModalComponent, modalOptions);
   }
 
 }

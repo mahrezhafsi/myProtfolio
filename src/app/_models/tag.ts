@@ -5,8 +5,7 @@ export class Tag{
     static readonly JAVASCRIPT = new Tag('JavaScript ','orange');
     static readonly SPRINGBOOT = new Tag('SpringBoot ','green');
     static readonly FLUTTER = new Tag('Flutter ','purple');
-    static readonly FIREBASE = new Tag('FireBase ','bleu');
-    
+    static readonly FIREBASE = new Tag('FireBase ','blue');
     private constructor(private readonly key:string,public readonly color : string){
 
     }
